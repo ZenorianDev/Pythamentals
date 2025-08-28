@@ -1,20 +1,18 @@
 # Understanding Data Types and Variables
 
-name = input("Enter your name: ")  # String
-age = int(input("Enter your age: "))  # Integer
-height = float(input("Enter your height in meters: "))  # Float
+name = input("Enter your name: ") 
+age = input("Enter your age: ")
+height = input("Enter your height in meters: ")
 
-print("Before conversion:")
-print("Type of name:", type(name))
-print("Type of age:", type(age))
-print("Type of height:", type(height))
-
+print("\nBefore conversion:")
+print(f"Value of name: {name}")
+print(f"Value of age: {age}")
+print(f"Value of height: {height}")
 
 age = int(age)
 height = float(height)
 
-
 print("\nAfter conversion:")
-print("Type of name:", type(name))
-print("Type of age:", type(age))
-print("Type of height:", type(height))
+print(f"Value of name: {name}")
+print(f"Value of age: {age}")
+print(f"Value of height: {height}")
